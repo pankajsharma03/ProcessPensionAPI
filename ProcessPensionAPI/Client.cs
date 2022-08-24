@@ -17,7 +17,7 @@ namespace ProcessPensionAPI
         public HttpClient PensionerDetailsAPI()
         {
             var client = new HttpClient();
-            client.BaseAddress = new Uri("http://20.62.245.177/");
+            client.BaseAddress = new Uri("http://20.237.74,118/");
             //client.BaseAddress = new Uri("http://localhost:4374/");
 
             return client;
