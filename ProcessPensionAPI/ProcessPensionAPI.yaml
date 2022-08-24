@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: processpensionapi
-        image: pensionctr.azurecr.io/processpensionapi:latest
+        image: mypensionmanagementcntr.azurecr.io/processpensionapi:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: pensionmgt
+      - name: pensionmanagementsvc
 
 ---
 apiVersion: v1
